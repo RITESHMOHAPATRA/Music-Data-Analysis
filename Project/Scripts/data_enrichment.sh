@@ -26,4 +26,4 @@ hadoop fs -get /user/hive/warehouse/project.db/enriched_data/batchid=$batchid/st
 
 echo "Deleting older valid and invalid records from local file system..." >> $LOGFILE
 
-find /home/acadgild/project/processed_dir/ -mtime +7 -exec rm {} \;
+find /home/acadgild/Project/processed_dir/ -mtime +7 -exec rm {} \;

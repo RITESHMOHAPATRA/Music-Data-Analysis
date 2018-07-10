@@ -14,7 +14,7 @@ val batchid=args(0)
 
 
 //Set the output path where all output files will be generated
-val outputdirpath="/home/acadgild/Project/batch"+batchid
+val outputdirpath="/Project/batch"+batchid
 
 //Set the database to be used in hive
 hiveContext.sql("use project")
